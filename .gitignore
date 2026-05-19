@@ -1,5 +1,3 @@
-# Datasets (regenerable via scripts/download_fer2013.py)
-data/
 
 # Python bytecode / caches
 __pycache__/

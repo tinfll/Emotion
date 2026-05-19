@@ -4,7 +4,9 @@
       "Bash(git ls-tree *)",
       "Bash(git show *)",
       "Bash(python -c \"import ast; ast.parse\\(open\\('src/dataset.py'\\).read\\(\\)\\); print\\('dataset.py: syntax OK'\\)\")",
-      "Bash(python -c \"from src.dataset import EMOTION_LABELS, build_dataloaders, class_distribution; print\\('app.py imports OK:', EMOTION_LABELS\\)\")"
+      "Bash(python -c \"from src.dataset import EMOTION_LABELS, build_dataloaders, class_distribution; print\\('app.py imports OK:', EMOTION_LABELS\\)\")",
+      "Bash(git check-ignore *)",
+      "Bash(git rm *)"
     ]
   }
 }

@@ -1,0 +1,24 @@
+.git/
+.gitignore
+
+# Python caches / envs (also keeps the build context small)
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Not needed at runtime
+docs/
+*.md
+LICENSE
+replay_commits.sh
+.claude/
+
+# FER2013 dataset is large and not needed for the hosted inference demo.
+data/
+
+# NOTE: checkpoints/*.pth are intentionally kept — required for inference.
